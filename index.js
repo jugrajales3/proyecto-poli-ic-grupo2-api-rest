@@ -5,9 +5,21 @@ const app = express();
 app.use(cors())
 
 const books = [
-    { id: 1, title: 'Libro 1', author: 'Autor 1' },
-    { id: 2, title: 'Libro 2', author: 'Autor 2' },
-    { id: 3, title: 'Libro 3', author: 'Autor 3' }
+    { 
+      id: 1,
+      title: 'Pro Git: Everything You Need to Know About Git',
+      author: 'Scott Chacon, Ben Straub'
+    },
+    {
+      id: 2,
+      title: 'Continuous Delivery with Docker and Jenkins: Delivering software at scale',
+      author: 'Rafal Leszko'
+    },
+    { 
+      id: 3,
+      title: 'Hands-on continuous integration and delivery build and release quality software at scale with Jenkins, Travis CI, and CircleCI',
+      author: 'Belmont, Jean-Marcel'
+    }
   ];
 
 
